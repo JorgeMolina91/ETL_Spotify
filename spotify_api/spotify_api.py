@@ -12,9 +12,9 @@ import sqlite3
 # I'm going to create constants with my DB location, token and user_id. ¡COntants are always in CAPITAL LETERS!
 DATABASE_LOCATION = sqlite3.connect("played_songs_list.db")
 USER_ID = "jorgemolina2097"
-TOKEN = "BQBB7KKj4T_mutLSIG1hKP1AHFNFNP0LHaFURQeYjgo5PpbuahBc1GAzQUqejhSqL4fHCk_j47-xm7ZrFcTIpEQ8q4jT9Dj31in78McdHqNj_zmx-BRf0wFn3M-bucxuamdXeH80GR8oBuaTJuk6C4kc9OpHJ0aAfIiPkQz3TkqXZjVevBXnC0yStIG_"
+TOKEN = [token] # To get the token -> https://developer.spotify.com/console/get-recently-played/
 
-# To get the token -> https://developer.spotify.com/console/get-recently-played/
+
 # Note: You gotta have a Spotify account
 
 # Check validations steps:  
